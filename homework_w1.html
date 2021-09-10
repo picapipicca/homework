@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <!-- JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+        <title>원페이지 쇼핑몰!</title>
+        <style>
+            * {
+                font-family: 'Glory', sans-serif;
+            }
+            .posting-box {
+                width: 700px;
+                height: 300px;
+                background-image: url("https://mk0soundguyshosprmrt.kinstacdn.com/wp-content/uploads/2020/12/Bose-QuietComfort-Earbuds-noise-cancelling-true-wireless-4-2048x1152.webp");
+                background-position: center;
+                background-size: cover;
+                margin : 30px auto 50px auto;
+
+            }
+            .order-list {
+                width: 700px;
+                margin: 30px auto 50px auto;
+            }
+            .form-control {
+                padding: 0px 590px 0px 0px;
+            }
+            .btn {
+                display: block;
+                margin: auto;
+                background-color: blue;
+                color: white;
+            }
+            .price {
+                font-size: 17px
+            }
+        </style>
+
+        <script>
+            function hey() {
+                alert ('주문이 완료되었습니다.');
+            }
+        </script>
+
+    </head>
+
+
+<body>
+<div class="posting-box">
+</div>
+
+<div class="order-list">
+
+    <h1> 무선이어폰 팝니다 <span class="price">가격 : 390,000 / 개</span> </h1>
+    <p> 이 상품으로 말할것같으면 우연히 영천에 간 해원이가 꼬임에 넘어가 에어팟과 보스 무선 이어폰을 바꿈으로써 앱등이가 되지못하고 구천을 떠돌았는데..완전체 앱등이가 되기위하여 보스 무선이어폰을 파는것이다.</p>
+    <form class="form-inline">
+        <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+                <div class="input-group-text">주문자이름</div>
+            </div>
+            <input type="text" class="form-control" id="inlineFormInputGroupUsername2" >
+        </div>
+
+    </form>
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01">수량</label>
+        </div>
+        <select class="custom-select" id="inputGroupSelect01">
+            <option selected>--수량을 선택하세요--</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+        </select>
+    </div>
+    </form>
+
+    <form class="form-inline">
+        <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+                <div class="input-group-text">주소</div>
+            </div>
+            <input type="text" class="form-control" id="inlineFormInputGroupUsername2" >
+        </div>
+        <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+                <div class="input-group-text">전화번호</div>
+            </div>
+            <input type="text" class="form-control" id="inlineFormInputGroupUsername2" >
+        </div>
+        <button onclick="hey()" class="btn" >주문하기</button>
+</div>
+
+</body>
+</html>
